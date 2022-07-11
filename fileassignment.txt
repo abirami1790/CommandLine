@@ -1,0 +1,54 @@
+Week 1: Assignment Command Line
+CLI Exercises:
+Command Line:
+1.List how many files (hidden files included) are there in your home directory
+Answer: ls -a ~/ | wc -l
+2.List how many directories (hidden dirs included) are there in your home directory
+Answer: find ~/ -type d | wc -l
+3. List all files/directories starting with letter “D” in your home directory
+Answer:find ~/ -name "D*"
+4. Change permissions to a text file by giving read-write access to owners and groups only.
+Answer: chmod ug=rw,o-rwx text1.txt or chmod 660 text1.txt
+5. Find out which processes are taking up maximum CPU
+Answer:top -F -R -o cpu
+6. Find out which processes are taking up more memory
+Answer:top -F -R -o mem
+7. Copy a text file from home directory to “tmp” directory
+Answer: mkdir tmp      cp text1.txt tmp/
+8.Given a text file, employee.txt, find out the following
+A)List all employee ids, names and role whose name starts with “J”
+Asnwer:touch employee.txt
+open employee.txt(paste the input)
+grep "J" employee.txt | aw
+k '{print $1,$2,$3}'
+B)List all fields, sorted by name in ascending order whose department is “Technology” and write them into emp.txt
+Answer:sort -k 2 employee.txt | grep "Technology" employee.txt >> emp.txt
+C)List name and salaries of employees who work in “Technology” department as a “Sysadmin” and overwrite emp.txt
+Answer:grep  ".*Sysadmin.*Technology" employee.txt > emp.txt
+D)Calculate the average salary of all employees
+Answer:awk '{ s += $5; } END { print "sum: ", s, " average: ", s/NR, "no of records: ", NR }' employee.txt
+E)List the distinct departments in the organisation.
+Answer:awk -F' ' '{print $4}' employee.txt|sort -u
+F)Count the number of employees who are developers
+Answer:grep -c 'Developer' employee.txt
+G)Print the distinct salaries of employees without $ sign
+Answer:cut -d' ' -f5 employee.txt|cut -c2-
+
+
+
+
+
+OS:
+1.Find out how to determine the OS architecture? (Is it 32 bit or 64 bit)
+Answer:uname -a 
+ getconf LONG_BIT
+2.How to shutdown the OS from the command line.
+Answer:sudo shutdown -r <time>
+3.Find out what shell you are using.
+Answer:ps -p $$
+4.Find out which processes are taking more memory from the command line ?
+Answer:top -F -R -o mem
+5.How do you terminate one process from the command line ?
+# kill [signal or option] PID(s)
+7.What is a symlink ? And how do you create one ?
+Answer: ln -s /Users/abiramikamatchi/assigment mydirectory
