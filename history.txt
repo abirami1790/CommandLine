@@ -1,0 +1,388 @@
+    1  htop
+    2  zsh --version
+    3  upgrade_oh_my_zsh
+    4  brew install zsh
+    5  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    6  nano ~/.zshrc
+    7  open  ~/.zshrc
+    8  source  ~/.zshrc
+    9  git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+   10  open  ~/.zshrc
+   11  source  ~/.zshrc
+   12  git clone https://github.com/powerline/fonts.git
+   13  cd fonts
+   14  ./install .sh
+   15  ./install.sh
+   16  cd ..
+   17  pwd
+   18  https://github.com/mbadolato/iTerm2-Color-Schemes.git
+   19  git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
+   20  git status
+   21  git clone https://gitlab.com/snippets/2098929.git
+   22  ls
+   23  touch brewfile.txt
+   24  open brewfile.txt
+   25  brew bundle install --file brewfile.txt
+   26  gradle --version
+   27  brew tap adoptopenjdk/openjdk
+   28  brew install adoptopenjdk8
+   29  pwd
+   30  python --version
+   31  java --version
+   32  wget
+   33  brew --version
+   34  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   35  brew --vw=ersion
+   36  brew --version
+   37  /usr/bin/xcodebuild -version
+   38  xcode-select --install 
+   39  xcode-select -r
+   40  sudo xcode-select --reset
+   41  brew cask install iterm2
+   42  brew install iterm2
+   43  wich xcodebuild
+   44  which xcodebuild
+   45  xcodebuild -version
+   46  xcode-select -p
+   47  ls /Library/Developer/CommandLineTools/usr/bin/git
+   48  pwd
+   49  clang --version
+   50  brew --version
+   51  docker --version
+   52  which docker
+   53  git --version
+   54  git-gui --version
+   55  gradle --version
+   56  tig --version
+   57  adoptopenjdk8 --version
+   58  java --version
+   59  which java
+   60  slack --version
+   61  brew install adoptopenjdk8
+   62  brew install homebrew/cask-versions/adoptopenjdk8
+   63  brew install docker
+   64  brew link docker
+   65  docker --version
+   66  java --version
+   67  java-v
+   68  java -v
+   69  java -version
+   70  javac -version
+   71  pwd
+   72  ls
+   73  mkdir gitProject
+   74  ls
+   75  cd gitProject
+   76  git clone https://github.com/abirami1790/mvcproject.git
+   77  ls
+   78  xcode --version
+   79  which xcode
+   80  which xcodebuild
+   81  gradle -versio
+   82  cd ..
+   83  gradle -- version
+   84  ssh-keygen -t rsa -C 1790.abi@gmail.com
+   85  cat ~/.ssh/id_rsa.pub | pbcopy
+   86  clear
+   87  touch Log.txt
+   88  ls
+   89  open Log.txt
+   90  open log.txt
+   91  mv Log.txt programLog.txt
+   92  ls
+   93  cd ~
+   94  mkdir CommadLine
+   95  mv ProgramLog.txt CommadLine
+   96  ls
+   97  cd Commadline
+   98  cd ..
+   99  history
+  100  clear
+  101  cd..
+  102  cd ..
+  103  git clone git@gitlab.com:AbiramiKamatchi/samplegit.git
+  104  git --version
+  105  cd ~
+  106  git clone git@gitlab.com:AbiramiKamatchi/samplegit.git
+  107  cd samplegit
+  108  ls
+  109  touch text1.txt
+  110  open text1.txt
+  111  git status
+  112  git add text1.txt
+  113  git commit -m "adding text file"
+  114  git status
+  115  git push 
+  116  cd ..
+  117  mkdir sampletest
+  118  ls
+  119  git init
+  120  cd..
+  121  cd ..
+  122  mkdir sampletest
+  123  ls
+  124  mk sample
+  125  mkdir sample
+  126  cd sample
+  127  mkdir sample
+  128  ls
+  129  cd sample
+  130  git init
+  131  ls
+  132  ls -la
+  133  git branch
+  134  touch fileshell.sh
+  135  ls
+  136  ll
+  137  ls -l
+  138  ls -h
+  139  ls --help
+  140  ./fileshell.sh
+  141  chmod 700
+  142  chmod 700 fileshell.sh
+  143  ll fileshell.sh
+  144  ./fileshell.sh
+  145  vi fileshell.sh
+  146  ./fileshell.sh
+  147  ls
+  148  vi fileshell.sh
+  149  ./fileshell.sh
+  150  pwd
+  151  vi fileshell.sh
+  152  ./fileshell.sh
+  153  vi fileshell.sh
+  154  ./fileshell.sh
+  155  vi fileshell.sh
+  156  cat "Error 1:x issue" > /Users/abiramikamatchi/Log.txt
+  157  echo  "Error 1:x issue" > /Users/abiramikamatchi/Log.txt
+  158  cat Log.txt
+  159  cat > output.txt <<EOF\nsome text\nsome lines\nEOF
+  160  open output.txt
+  161  mv output.txt output1.txt
+  162  ls
+  163  mkdir tesdir
+  164  mv output1.txt tesdir/output1.txt
+  165  cd tesdir
+  166  ls
+  167  open Log.txt
+  168  mv Log.txt programLog.txt
+  169  ls
+  170  open programLog.txt
+  171  rmdir CommadLine
+  172  open CommadLine
+  173  rmdir CommadLine
+  174  ls
+  175  mkdir CommandLine
+  176  ls
+  177  mv programLog.txt CommandLine
+  178  open CommadLine
+  179  eCommandLine
+  180  open CommandLine
+  181  grep "error" programLog.txt
+  182  grep "Error" programLog.txt
+  183  grep "Error" errorlog.txt
+  184  open CommandLine
+  185  cd CommandLine
+  186  grep "Error" programLog.txt
+  187  cat grep "Error" programLog.txt > errorlog.txt 
+  188  touch errorlog.txt
+  189  cat grep "Error" programLog.txt > errorlog.txt 
+  190  cat grep "Error" programLog.txt >> errorlog.txt 
+  191  echo  grep "Error" programLog.txt > errorlog.txt 
+  192  open errorlog.txt
+  193  cat grep "Error" programLog.txt >> errorlog.txt 
+  194  cat grep "Error" programLog.txt 
+  195  grep "Error" programLog.txt 
+  196  % grep -o 'on line .*' programLog.txt >errorlog.txt
+  197  % grep "Error"  programLog.txt >errorlog.txt
+  198  % grep "Error"  programLog.txt > errorlog.txt
+  199  % grep "Error"  programLog.txt >> errorlog.txt
+  200  % grep "Error"  programLog.txt 
+  201  grep "Error"  programLog.txt 
+  202  grep "Error"  programLog.txt > errorlog.txt
+  203  open errorlog.txt
+  204  grep "warning"  programLog.txt > warninglog.txt
+  205  open warninglog.txt
+  206  grep "Warning"  programLog.txt > warninglog.txt
+  207  open warninglog.txt
+  208  mkdir output
+  209  mv errorlog.txt 
+  210  mv errorlog.txt output
+  211  mv waringlogg.txt output
+  212  mv waringlog.txt output
+  213  mv warninglog.txt output
+  214  ls
+  215  ls output
+  216  history
+  217  ls
+  218  mkdir sampledir
+  219  ls
+  220  cd sampledir
+  221  git init
+  222  ls
+  223  ls -la
+  224  git branch
+  225  git remote add origin git@gitlab.com:AbiramiKamatchi/samplegit.git
+  226  git fetch
+  227  git branch
+  228  git pull
+  229  git checkout main
+  230  git branch --set-upstream-to=origin/main main
+  231  ls
+  232  git pull
+  233  git checkout -b test
+  234  ls
+  235  touch test.txt
+  236  git add .
+  237  git status
+  238  touch test.txt
+  239  open test.txt
+  240  git add test.txt
+  241  git status
+  242  cd ..
+  243  cd sampledir
+  244  cd ..
+  245  ls
+  246  cd ~
+  247  ls
+  248  cd ..
+  249  ls
+  250  cd abiramikamatchi
+  251  ls
+  252  cd ..
+  253  cd
+  254  exit
+  255  wq
+  256  cd ..
+  257  ls
+  258  cd abiramikamatchi
+  259  ls
+  260  cd sample git
+  261  cd saamplegit
+  262  cd samplegit
+  263  ls
+  264  git status
+  265  git checkout master
+  266  git branch -r
+  267  cd ..
+  268  git status
+  269  ls -a
+  270  rm .git
+  271  rm -rf .git
+  272  ls
+  273  cd training
+  274  mkdir training
+  275  cd training
+  276  git clone git@github.com:mr-nano/make-me-oo.git
+  277  git clone https://github.com/mr-nano/make-me-oo.git
+  278  ls
+  279  git status
+  280  git branch
+  281  git branch -r
+  282  git log
+  283  which java
+  284  git status
+  285  git push
+  286  ls
+  287  cd make-me-oo
+  288  git status
+  289  git push
+  290  git status
+  291  git add .gitignore
+  292  git status
+  293  git add .gitignore
+  294  git status
+  295  git add .
+  296  git status
+  297  git commit -m "Initial commit" 
+  298  git status
+  299  git remote add origin git@gitlab.com:AbiramiKamatchi/mydemogreet.git
+  300  git status
+  301  git fetch
+  302  git checkout main
+  303  ls
+  304  pwd
+  305  git branch --set-upstream-to=origi/main main
+  306  git push 
+  307  git branch -M main
+  308  git push -uf origin main
+  309  git status
+  310  git add .
+  311  git status
+  312  git commit -m "add new changes"
+  313  git status
+  314  git push -uf origin main
+  315  git checkout master
+  316  git clone git@gitlab.com:AbiramiKamatchi/mydemogreet.git
+  317  git push
+  318  git branch
+  319  git status
+  320  git branch
+  321  git merge master
+  322  git merge master --allow-unrelated-histories
+  323  git status
+  324  git checkout .
+  325  git status
+  326  git merge master --allow-unrelated-histories
+  327  git status
+  328  git commit
+  329  git status
+  330  git log
+  331  git log --graph
+  332  git push
+  333  gradle build
+  334  git clone git@gitlab.com:tw-catalyst/dev-exercises/vapasi/vapasi-june-2022/pairs/pair-03/geometry.git
+  335  git status
+  336  mkdir GeometricShape
+  337  cd GeometricShape
+  338  git clone git@gitlab.com:tw-catalyst/dev-exercises/vapasi/vapasi-june-2022/pairs/pair-03/geometry.git
+  339  ls
+  340  gst
+  341  git add .
+  342  gst
+  343  git commit -m "Add.Created perimeter function and added test cases\n\n\nCo-Authored By: Abirami Dasarathan<1790.abi@gmail.com>"
+  344  git log
+  345  git push
+  346  git remote set-url git remote set-url git@gitlab.com:tw-catalyst/dev-exercises/vapasi/vapasi-june-2022/pairs/pair-06/geometryshape.git
+  347  git remote -v
+  348  git remote set-url git@gitlab.com:tw-catalyst/dev-exercises/vapasi/vapasi-june-2022/pairs/pair-06/geometryshape.git
+  349  git remote -v
+  350  git remote set origin git@gitlab.com:tw-catalyst/dev-exercises/vapasi/vapasi-june-2022/pairs/pair-06/geometryshape.git
+  351  git remote -v
+  352  git remote set-url origin git@gitlab.com:tw-catalyst/dev-exercises/vapasi/vapasi-june-2022/pairs/pair-06/geometryshape.git
+  353  git remote -v
+  354  gst
+  355  git add .
+  356  gst
+  357  git commit -m "Add. Area and Perimeter functions for Rectangle And Square\n\n\nCo-Authored By: Shelly Suri<shelly.suri99@gmail.com>\n"
+  358  git log
+  359  git push
+  360  git fetch
+  361  git push
+  362  git push --rebase
+  363  git checkout main
+  364  git log HEAD..origin/master
+  365  git log HEAD..origin/main
+  366  clear
+  367  git log
+  368  gst
+  369  git pull --rebase
+  370  gst
+  371  git rm .
+  372  gst
+  373  git restore staged src/main/java/com/tw/geometry/Rectangle.java\n
+  374  git restore -staged src/main/java/com/tw/geometry/Rectangle.java\n
+  375  git restore --staged src/main/java/com/tw/geometry/Rectangle.java\n
+  376  gst
+  377  git restore --staged  src/main/java/com/tw/geometry/Rectangle.java\n
+  378  git add  src/main/java/com/tw/geometry/Rectangle.java\n
+  379  gst
+  380  git add src/test/java/com/tw/geometry/RectangleTest.java
+  381  gst
+  382  git rebase --continue
+  383  git log
+  384  git push
+  385  history
+  386  history\n
+  387  ls
+  388  touch history.txt
